@@ -75,26 +75,30 @@
             // дляКофтToolStripMenuItem
             // 
             this.дляКофтToolStripMenuItem.Name = "дляКофтToolStripMenuItem";
-            this.дляКофтToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.дляКофтToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.дляКофтToolStripMenuItem.Text = "Для кофт";
+            this.дляКофтToolStripMenuItem.Click += new System.EventHandler(this.дляКофтToolStripMenuItem_Click);
             // 
             // дляФутболокToolStripMenuItem
             // 
             this.дляФутболокToolStripMenuItem.Name = "дляФутболокToolStripMenuItem";
-            this.дляФутболокToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.дляФутболокToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.дляФутболокToolStripMenuItem.Text = "Для футболок";
+            this.дляФутболокToolStripMenuItem.Click += new System.EventHandler(this.дляФутболокToolStripMenuItem_Click);
             // 
             // дляШтанівToolStripMenuItem
             // 
             this.дляШтанівToolStripMenuItem.Name = "дляШтанівToolStripMenuItem";
-            this.дляШтанівToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.дляШтанівToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.дляШтанівToolStripMenuItem.Text = "Для штанів";
+            this.дляШтанівToolStripMenuItem.Click += new System.EventHandler(this.дляШтанівToolStripMenuItem_Click);
             // 
             // дляВзуттяToolStripMenuItem
             // 
             this.дляВзуттяToolStripMenuItem.Name = "дляВзуттяToolStripMenuItem";
-            this.дляВзуттяToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.дляВзуттяToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.дляВзуттяToolStripMenuItem.Text = "Для взуття";
+            this.дляВзуттяToolStripMenuItem.Click += new System.EventHandler(this.дляВзуттяToolStripMenuItem_Click);
             // 
             // справкаToolStripMenuItem
             // 
@@ -108,14 +112,16 @@
             // проПрограмуToolStripMenuItem
             // 
             this.проПрограмуToolStripMenuItem.Name = "проПрограмуToolStripMenuItem";
-            this.проПрограмуToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.проПрограмуToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.проПрограмуToolStripMenuItem.Text = "Про програму";
+            this.проПрограмуToolStripMenuItem.Click += new System.EventHandler(this.проПрограмуToolStripMenuItem_Click);
             // 
             // проРозробниківToolStripMenuItem
             // 
             this.проРозробниківToolStripMenuItem.Name = "проРозробниківToolStripMenuItem";
-            this.проРозробниківToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.проРозробниківToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.проРозробниківToolStripMenuItem.Text = "Про розробників";
+            this.проРозробниківToolStripMenuItem.Click += new System.EventHandler(this.проРозробниківToolStripMenuItem_Click);
             // 
             // button1
             // 
