@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="barigiDataSet" targetNamespace="http://tempuri.org/barigiDataSet.xsd" xmlns:mstns="http://tempuri.org/barigiDataSet.xsd" xmlns="http://tempuri.org/barigiDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="barigiConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="barigiConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.okrpz1.Properties.Settings.GlobalReference.Default.barigiConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="footTableAdapter" GeneratorDataComponentClassName="footTableAdapter" Name="foot" UserDataComponentName="footTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="barigiConnectionString (Settings)" DbObjectName="barigi.foot" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT kod_foot, name, type, material, firm, size, price FROM foot</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pantsTableAdapter" GeneratorDataComponentClassName="pantsTableAdapter" Name="pants" UserDataComponentName="pantsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="barigiConnectionString (Settings)" DbObjectName="barigi.pants" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT kod_pants, name, type, color, cloth, firm, size, price FROM pants</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="shortsTableAdapter" GeneratorDataComponentClassName="shortsTableAdapter" Name="shorts" UserDataComponentName="shortsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="barigiConnectionString (Settings)" DbObjectName="barigi.shorts" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT kod_shorts, name, type, color, cloth, firm, size, price FROM shorts</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sweatersTableAdapter" GeneratorDataComponentClassName="sweatersTableAdapter" Name="sweaters" UserDataComponentName="sweatersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="barigiConnectionString (Settings)" DbObjectName="barigi.sweaters" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT kod_sweaters, name, type, color, cloth, firm, size, price FROM sweaters</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tovarTableAdapter" GeneratorDataComponentClassName="tovarTableAdapter" Name="tovar" UserDataComponentName="tovarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="barigiConnectionString (Settings)" DbObjectName="barigi.tovar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT kod_tovary, foot, shorts, swaeters, pants, sweaters_kod_sweaters, shorts_kod_shorts, pants_kod_pants, foot_kod_foot FROM tovar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="barigiDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="barigiDataSet" msprop:Generator_UserDSName="barigiDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="foot" msprop:Generator_TableClassName="footDataTable" msprop:Generator_TableVarName="tablefoot" msprop:Generator_TablePropName="foot" msprop:Generator_RowDeletingName="footRowDeleting" msprop:Generator_RowChangingName="footRowChanging" msprop:Generator_RowEvHandlerName="footRowChangeEventHandler" msprop:Generator_RowDeletedName="footRowDeleted" msprop:Generator_UserTableName="foot" msprop:Generator_RowChangedName="footRowChanged" msprop:Generator_RowEvArgName="footRowChangeEvent" msprop:Generator_RowClassName="footRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pants" msprop:Generator_TableClassName="pantsDataTable" msprop:Generator_TableVarName="tablepants" msprop:Generator_TablePropName="pants" msprop:Generator_RowDeletingName="pantsRowDeleting" msprop:Generator_RowChangingName="pantsRowChanging" msprop:Generator_RowEvHandlerName="pantsRowChangeEventHandler" msprop:Generator_RowDeletedName="pantsRowDeleted" msprop:Generator_UserTableName="pants" msprop:Generator_RowChangedName="pantsRowChanged" msprop:Generator_RowEvArgName="pantsRowChangeEvent" msprop:Generator_RowClassName="pantsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="shorts" msprop:Generator_TableClassName="shortsDataTable" msprop:Generator_TableVarName="tableshorts" msprop:Generator_TablePropName="shorts" msprop:Generator_RowDeletingName="shortsRowDeleting" msprop:Generator_RowChangingName="shortsRowChanging" msprop:Generator_RowEvHandlerName="shortsRowChangeEventHandler" msprop:Generator_RowDeletedName="shortsRowDeleted" msprop:Generator_UserTableName="shorts" msprop:Generator_RowChangedName="shortsRowChanged" msprop:Generator_RowEvArgName="shortsRowChangeEvent" msprop:Generator_RowClassName="shortsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sweaters" msprop:Generator_TableClassName="sweatersDataTable" msprop:Generator_TableVarName="tablesweaters" msprop:Generator_TablePropName="sweaters" msprop:Generator_RowDeletingName="sweatersRowDeleting" msprop:Generator_RowChangingName="sweatersRowChanging" msprop:Generator_RowEvHandlerName="sweatersRowChangeEventHandler" msprop:Generator_RowDeletedName="sweatersRowDeleted" msprop:Generator_UserTableName="sweaters" msprop:Generator_RowChangedName="sweatersRowChanged" msprop:Generator_RowEvArgName="sweatersRowChangeEvent" msprop:Generator_RowClassName="sweatersRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tovar" msprop:Generator_TableClassName="tovarDataTable" msprop:Generator_TableVarName="tabletovar" msprop:Generator_TablePropName="tovar" msprop:Generator_RowDeletingName="tovarRowDeleting" msprop:Generator_RowChangingName="tovarRowChanging" msprop:Generator_RowEvHandlerName="tovarRowChangeEventHandler" msprop:Generator_RowDeletedName="tovarRowDeleted" msprop:Generator_UserTableName="tovar" msprop:Generator_RowChangedName="tovarRowChanged" msprop:Generator_RowEvArgName="tovarRowChangeEvent" msprop:Generator_RowClassName="tovarRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
