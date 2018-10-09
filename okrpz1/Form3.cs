@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using MySql.Data.Common;
+using System.Data;
 
 namespace okrpz1
 {
@@ -71,6 +73,17 @@ namespace okrpz1
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            MySqlConnection conn = new MySqlConnection(Properties.Settings.Default.barigiConnectionString);
+            MySqlCommand mencom;
+            mencom = new MySqlCommand("SELECT * FROM shorts", conn);
+            conn.Open();
+            DataTable dt = new DataTable("ghjghj");
+            MySqlDataAdapter da = new MySqlDataAdapter(mencom);
+            da.Fill(dt);
+            conn.Close();
+
+            dataGridView1.DataSource = dt;
+            return;
             string query = "SELECT * FROM barigi.shorts;";
 
             MySqlDataReader reader = baza.VZR(query);

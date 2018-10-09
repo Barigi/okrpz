@@ -61,6 +61,17 @@ namespace okrpz1
 
         private void Form8_Load(object sender, EventArgs e)
         {
+            MySqlConnection conn = new MySqlConnection(Properties.Settings.Default.barigiConnectionString);
+            MySqlCommand mencom;
+            mencom = new MySqlCommand("SELECT * FROM foot", conn);
+            conn.Open();
+            DataTable dt = new DataTable("ghjghj");
+            MySqlDataAdapter da = new MySqlDataAdapter(mencom);
+            da.Fill(dt);
+            conn.Close();
+
+            dataGridView1.DataSource = dt;
+            return;
             string query = "SELECT * FROM barigi.foot;";
 
             MySqlDataReader reader = baza.VZR(query);
