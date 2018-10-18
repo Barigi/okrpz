@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "okrpz1", "okrpz1\okrpz1.csproj", "{876D2B62-B1C0-49B2-B6DD-769D739D19E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{876D2B62-B1C0-49B2-B6DD-769D739D19E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876D2B62-B1C0-49B2-B6DD-769D739D19E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876D2B62-B1C0-49B2-B6DD-769D739D19E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876D2B62-B1C0-49B2-B6DD-769D739D19E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E4B20C6-7F42-487C-A1F4-CB79FC27E28F}
+	EndGlobalSection
+EndGlobal
