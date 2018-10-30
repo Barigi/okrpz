@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace okrpz1
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -77,7 +79,11 @@ namespace okrpz1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> 11c3d07a6b3fa26c7cea26945f500e1b7b3d3721
         }
     }
 }

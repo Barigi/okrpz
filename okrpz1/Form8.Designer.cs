@@ -39,13 +39,6 @@
             this.проРозробниківToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -77,24 +70,28 @@
             this.дляКофтToolStripMenuItem.Name = "дляКофтToolStripMenuItem";
             this.дляКофтToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.дляКофтToolStripMenuItem.Text = "Для кофт";
+            this.дляКофтToolStripMenuItem.Click += new System.EventHandler(this.дляКофтToolStripMenuItem_Click);
             // 
             // дляФутболокToolStripMenuItem
             // 
             this.дляФутболокToolStripMenuItem.Name = "дляФутболокToolStripMenuItem";
             this.дляФутболокToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.дляФутболокToolStripMenuItem.Text = "Для футболок";
+            this.дляФутболокToolStripMenuItem.Click += new System.EventHandler(this.дляФутболокToolStripMenuItem_Click);
             // 
             // дляШтанівToolStripMenuItem
             // 
             this.дляШтанівToolStripMenuItem.Name = "дляШтанівToolStripMenuItem";
             this.дляШтанівToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.дляШтанівToolStripMenuItem.Text = "Для штанів";
+            this.дляШтанівToolStripMenuItem.Click += new System.EventHandler(this.дляШтанівToolStripMenuItem_Click);
             // 
             // дляВзуттяToolStripMenuItem
             // 
             this.дляВзуттяToolStripMenuItem.Name = "дляВзуттяToolStripMenuItem";
             this.дляВзуттяToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.дляВзуттяToolStripMenuItem.Text = "Для взуття";
+            this.дляВзуттяToolStripMenuItem.Click += new System.EventHandler(this.дляВзуттяToolStripMenuItem_Click);
             // 
             // справкаToolStripMenuItem
             // 
@@ -110,12 +107,14 @@
             this.проПрограмуToolStripMenuItem.Name = "проПрограмуToolStripMenuItem";
             this.проПрограмуToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.проПрограмуToolStripMenuItem.Text = "Про програму";
+            this.проПрограмуToolStripMenuItem.Click += new System.EventHandler(this.проПрограмуToolStripMenuItem_Click);
             // 
             // проРозробниківToolStripMenuItem
             // 
             this.проРозробниківToolStripMenuItem.Name = "проРозробниківToolStripMenuItem";
             this.проРозробниківToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.проРозробниківToolStripMenuItem.Text = "Про розробників";
+            this.проРозробниківToolStripMenuItem.Click += new System.EventHandler(this.проРозробниківToolStripMenuItem_Click);
             // 
             // button1
             // 
@@ -133,68 +132,10 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7});
             this.dataGridView1.Location = new System.Drawing.Point(0, 27);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(640, 297);
             this.dataGridView1.TabIndex = 12;
-            // 
-            // Column1
-            // 
-            this.Column1.Frozen = true;
-            this.Column1.HeaderText = "id";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Visible = false;
-            // 
-            // Column2
-            // 
-            this.Column2.Frozen = true;
-            this.Column2.HeaderText = "Назва";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.Frozen = true;
-            this.Column3.HeaderText = "Тип";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.Frozen = true;
-            this.Column4.HeaderText = "Матеріал";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.Frozen = true;
-            this.Column5.HeaderText = "Фірма";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.Frozen = true;
-            this.Column6.HeaderText = "Розмір";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
-            // 
-            // Column7
-            // 
-            this.Column7.Frozen = true;
-            this.Column7.HeaderText = "Ціна";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
             // 
             // Form8
             // 
@@ -207,6 +148,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form8";
             this.Text = "Взуття";
+            this.Load += new System.EventHandler(this.Form8_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -228,12 +170,5 @@
         private System.Windows.Forms.ToolStripMenuItem проРозробниківToolStripMenuItem;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
     }
 }
