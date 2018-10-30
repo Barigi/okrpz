@@ -158,14 +158,14 @@
             // проПрограмуToolStripMenuItem
             // 
             this.проПрограмуToolStripMenuItem.Name = "проПрограмуToolStripMenuItem";
-            this.проПрограмуToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.проПрограмуToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.проПрограмуToolStripMenuItem.Text = "Про програму";
             this.проПрограмуToolStripMenuItem.Click += new System.EventHandler(this.проПрограмуToolStripMenuItem_Click);
             // 
             // проРозробниківToolStripMenuItem
             // 
             this.проРозробниківToolStripMenuItem.Name = "проРозробниківToolStripMenuItem";
-            this.проРозробниківToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.проРозробниківToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.проРозробниківToolStripMenuItem.Text = "Про розробників";
             this.проРозробниківToolStripMenuItem.Click += new System.EventHandler(this.проРозробниківToolStripMenuItem_Click);
             // 
@@ -184,6 +184,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Барижна програма";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
