@@ -18,3 +18,17 @@ C:\Users\vadim\source\repos\okrpz1\okrpz1\obj\Debug\okrpz1.Form8.resources
 D:\konch\okrpz\okrpz1\bin\Debug\okrpz1.exe.config
 D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.exe
 D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.pdb
+D:\konch\okrpz\okrpz1\bin\Debug\okrpz1.exe
+D:\konch\okrpz\okrpz1\bin\Debug\okrpz1.pdb
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.csprojResolveAssemblyReference.cache
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Form1.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Form2.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Form3.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Form4.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Form5.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Form6.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Form7.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Form8.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Form9.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.Properties.Resources.resources
+D:\konch\okrpz\okrpz1\obj\Debug\okrpz1.csproj.GenerateResource.Cache
